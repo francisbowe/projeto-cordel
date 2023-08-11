@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*fontes importadas do google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passions+Conflict&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+:root{
+    --fonte1: verdana,Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passions Conflict', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body {
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vh;
+}
+header > p {
+    padding-bottom: 50px;
+    padding-bottom: 2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+}
+section{
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vh;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(97, 91, 91);
+    color: white;
+    box-shadow: inset 6px 6px 0px rgba(0, 0, 0, 0.315);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.418);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+.imagem#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+.imagem#img02{
+    background-image: url('../imagens/background002.jpg');
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
